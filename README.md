@@ -2,6 +2,9 @@
 
 References to Revit 2019 to 2022 assemblies.
 
+* [Download Revit.References](https://github.com/ricaun/Revit.References/archive/refs/tags/v1.0.zip)
+
+
 ## Revit 2022
 
 ### D2022
