@@ -4,6 +4,9 @@ References to Revit 2019 to 2022 assemblies.
 
 * [Download Revit.References](https://github.com/ricaun/Revit.References/archive/refs/tags/v1.0.zip)
 
+## Vídeo
+
+[![VideoIma]][Video]
 
 ## Revit 2022
 
@@ -75,3 +78,11 @@ References to Revit 2019 to 2022 assemblies.
     </Reference>
   </ItemGroup>
 ```
+
+---
+
+
+Do you like this library? Please [star this project on GitHub](https://github.com/ricaun/Revit.References/stargazers)!
+
+[Video]: https://youtu.be/DCWenLzVuss
+[VideoIma]: https://img.youtube.com/vi/DCWenLzVuss/hqdefault.jpg
