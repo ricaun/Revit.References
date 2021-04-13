@@ -1,6 +1,8 @@
 # Revit.References
 
+References to Revit 2019 to 2022 assemblies.
 
+## Revit 2022
 
 ### D2022
 ``` xml
@@ -45,27 +47,27 @@
 ``` xml
   <ItemGroup Condition="$(Configuration.Contains('2022'))">
     <Reference Include="AdWindows">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\AdWindows.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\AdWindows.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="NewtonSoft.Json">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\NewtonSoft.Json.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\NewtonSoft.Json.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="RevitAPI">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\RevitAPI.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="RevitAPIIFC">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\RevitAPIIFC.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPIIFC.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\RevitAPIUI.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPIUI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UIFramework">
-      <HintPath>$(SolutionDir)\packages\Onbox.Revit.References.2021.0.0\lib\Revit 2022\UIFramework.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\UIFramework.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
