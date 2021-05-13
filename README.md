@@ -95,6 +95,15 @@ References to Revit 2027 to 2022 assemblies.
   </PropertyGroup>
 ```
 
+
+### Open Revit
+``` xml
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\Revit $(Configuration)\Revit.exe</StartProgram>
+  </PropertyGroup>
+```
+
 ### References
 ``` xml
   <ItemGroup>
