@@ -1,80 +1,127 @@
 # Revit.References
 
-References to Revit 2019 to 2022 assemblies.
+References to Revit 2027 to 2022 assemblies.
 
-* [Download Revit.References](https://github.com/ricaun/Revit.References/archive/refs/tags/v1.0.zip)
+### Version
 
-## Vídeo
-
-[![VideoIma]][Video]
-
-## Revit 2022
-
-### D2022
 ``` xml
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'D2022|x64'">
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '2017|AnyCPU' ">
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x64\$(Configuration)\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;Revit2022</DefineConstants>
-    <DebugType>full</DebugType>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2017</DefineConstants>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
     <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
-```
-
-### R2022
-``` xml
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'R2022|x64'">
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <OutputPath>bin\Content\R2022\</OutputPath>
-    <DefineConstants>TRACE;Revit2022</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '2018|AnyCPU' ">
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2018</DefineConstants>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>7.3</LangVersion>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == '2019|AnyCPU' ">
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2019</DefineConstants>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2020|AnyCPU'">
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2020</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2021|AnyCPU'">
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2021</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2022|AnyCPU'">
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;Revit2022</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;Revit2021</DefineConstants>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;Revit2021</DefineConstants>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 ```
 
-### Open Revit 2022
+
+### Open Revit
 ``` xml
-  <PropertyGroup Condition="$(Configuration.Contains('2022'))">
+  <PropertyGroup>
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Program Files\Autodesk\Revit 2022\Revit.exe</StartProgram>
+    <StartProgram>C:\Program Files\Autodesk\Revit $(Configuration)\Revit.exe</StartProgram>
   </PropertyGroup>
 ```
 
-### Reference 2022
+### References
 ``` xml
-  <ItemGroup Condition="$(Configuration.Contains('2022'))">
-    <Reference Include="AdWindows">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\AdWindows.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="NewtonSoft.Json">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\NewtonSoft.Json.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+  <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPI.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="RevitAPIIFC">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPIIFC.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>..\references\RevitAPI\$(Configuration)\RevitAPI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\RevitAPIUI.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>..\references\RevitAPI\$(Configuration)\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows">
+      <HintPath>..\references\RevitAPI\$(Configuration)\AdWindows.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UIFramework">
-      <HintPath>$(SolutionDir)\packages\Revit.References\lib\Revit 2022\UIFramework.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>..\references\RevitAPI\$(Configuration)\UIFramework.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 ```
